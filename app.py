@@ -14,7 +14,7 @@ import pandas as pd
 from pathlib import Path
 from datetime import datetime, timezone
 from fastapi import FastAPI
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, Response
 from fastapi.middleware.cors import CORSMiddleware
 
 # ── Configuración ────────────────────────────────────────
@@ -238,8 +238,10 @@ def predict():
     Se actualiza automáticamente cada 5 minutos.
     """
     if STATE.exists():
-        return JSONResponse(json.loads(STATE.read_text(encoding='utf-8')))
-    return JSONResponse(run_ciclo())
+        return Response(content=STATE.read_text(encoding='utf-8'),
+                        media_type='application/json; charset=utf-8')
+    return Response(content=json.dumps(run_ciclo(), ensure_ascii=False),
+                    media_type='application/json; charset=utf-8')
 
 
 @app.get("/predict/{zona}", summary="Predicción para un municipio específico")
@@ -247,11 +249,9 @@ def predict_zona(zona: str):
     if STATE.exists():
         data = json.loads(STATE.read_text(encoding='utf-8'))
         if zona in data['zones']:
-            return JSONResponse({
-                'timestamp': data['timestamp'],
-                'zona': zona,
-                **data['zones'][zona]
-            })
+            payload = {'timestamp': data['timestamp'], 'zona': zona, **data['zones'][zona]}
+            return Response(content=json.dumps(payload, ensure_ascii=False),
+                            media_type='application/json; charset=utf-8')
     return JSONResponse({'error': f'Municipio "{zona}" no encontrado'}, status_code=404)
 
 
