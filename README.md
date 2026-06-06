@@ -4,6 +4,13 @@
 > Hackathon ConciencIA · Equipo AquaInfer · 2026
 > Agente complementario de [AquaInfer CDMX](https://github.com/Rogelio756/hackaton_agentes_concienc_ia)
 
+## 🚀 API en producción
+```
+https://agente-area-metro-zmvm-production.up.railway.app/predict
+https://agente-area-metro-zmvm-production.up.railway.app/health
+https://agente-area-metro-zmvm-production.up.railway.app/zonas
+```
+
 ---
 
 ## ¿Qué hace?
