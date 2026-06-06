@@ -1,4 +1,4 @@
-# AquaInfer ZMVM 🗺️
+# FloodSense ZMVM 🗺️
 **Agente de predicción de riesgo de inundación — Zona Metropolitana del Valle de México**
 
 > Hackathon ConciencIA · Equipo AquaInfer · 2026
