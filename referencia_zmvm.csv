@@ -1,0 +1,29 @@
+municipio,estado,lat,lon,riesgo_base,fuente_heuristica
+Ecatepec de Morelos,Estado de México,19.6012,-99.0504,4,Rio Remedios / zona baja / inundaciones recurrentes CENAPRED
+Nezahualcóyotl,Estado de México,19.4016,-99.0150,5,Ex-lago Texcoco / nivel mas bajo ZMVM / inundaciones severas
+Chimalhuacán,Estado de México,19.4262,-98.9524,4,Ex-lago Texcoco / suelo arcilloso expansivo
+Chalco,Estado de México,19.2614,-98.8989,5,Zona lacustre / inundaciones 2000-2010-2021 CENAPRED
+Valle de Chalco,Estado de México,19.2975,-98.9663,5,Zona mas vulnerable Edomex / debajo del nivel del lago
+La Paz,Estado de México,19.3567,-98.9528,4,Colindante con Neza / zona baja / drenaje insuficiente
+Ixtapaluca,Estado de México,19.3175,-98.8796,3,Terreno mixto / parte alta con menor riesgo
+Chicoloapan,Estado de México,19.4136,-98.9007,3,Zona semiplana / expansion urbana sobre barrancas
+Texcoco,Estado de México,19.5151,-98.8806,3,Cercano al ex-lago / zona agricola con drenaje natural
+Atenco,Estado de México,19.5288,-98.9135,4,Ribera lago Texcoco / zona inundable historica
+Tlalnepantla de Baz,Estado de México,19.5400,-99.1940,3,Zona industrial plana + parte alta / riesgo mixto
+Naucalpan de Juárez,Estado de México,19.4760,-99.2380,2,Zona predominantemente alta / sierra de las Cruces
+Atizapán de Zaragoza,Estado de México,19.5730,-99.2440,2,Zona alta / sierra Monte Alto / bajo riesgo inundacion
+Cuautitlán Izcalli,Estado de México,19.6483,-99.2147,3,Zona plana / mejor infraestructura drenaje norte ZMVM
+Cuautitlán,Estado de México,19.6856,-99.1839,3,Zona agricola-urbana / riesgo moderado por rios
+Tultitlán,Estado de México,19.6435,-99.1660,3,Zona plana / Rio Cuautitlan / expansion urbana
+Coacalco de Berriozábal,Estado de México,19.6217,-99.0965,3,Zona plana / drenaje moderado / riesgo medio
+Tecámac,Estado de México,19.7149,-98.9706,2,Zona alta del norte / menor riesgo hidrologico
+Nicolás Romero,Estado de México,19.6297,-99.3080,2,Sierra de Tepotzotlán / zona baja riesgo
+Tultepec,Estado de México,19.6966,-99.1243,3,Zona plana / Rio Cuautitlan cercano
+Nextlalpan,Estado de México,19.7467,-99.0869,3,Zona agricola plana / expansion urbana incipiente
+Zumpango,Estado de México,19.7960,-99.1030,2,Lago Zumpango regulado / infraestructura drenaje
+Tizayuca,Hidalgo,19.8390,-98.9728,2,Norte ZMVM / zona semiárida / bajo riesgo inundacion
+Pachuca de Soto,Hidalgo,20.1011,-98.7591,2,Capital Hidalgo / zona alta / riesgo bajo inundacion
+Mineral de la Reforma,Hidalgo,20.0928,-98.7269,2,Conurbado Pachuca / zona alta / riesgo bajo
+Zapotlán de Juárez,Hidalgo,19.9706,-98.8681,2,Zona semiplana Hidalgo / riesgo bajo
+Toluca,Estado de México,19.2826,-99.6557,2,Capital Edomex / zona alta / Valle de Toluca separado
+Metepec,Estado de México,19.2494,-99.6046,3,Valle Toluca / zonas bajas por Rio Lerma
